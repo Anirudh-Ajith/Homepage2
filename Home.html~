@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home</title>
+		<script src="jquery.min.js" type="text/javascript"></script>
+		<script src="jquery-ui.min.js" type="text/javascript"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="shortcut icon" href="Me.jpg"/>
+		<link type="text/css" rel="stylesheet" href="style.css"/>
+		<link type="text/css" rel="stylesheet" href="jquery-ui.css"/>
+		<script type="text/javascript" src="apprise-v2.js"></script>
+		<link rel="stylesheet" href="apprise-v2.css" type="text/css">
+		<!-- <script src="YouTubeApi.js" type="text/javascript"></script>
+		<script src="https://apis.google.com/js/client.js?onload=onClientLoad" type="text/javascript"></script> -->
+		<script src="getMailCount.js" type="text/javascript"></script>
+		<script src="bookmarks.js" type="text/javascript"></script>
+		<script src="script.js" type="text/javascript"></script>
+	</head>
+	<body>
+	<script type='text/javascript' src='http://demonstrations.wolfram.com/javascript/embed.js' ></script><script type='text/javascript'>var demoObj = new DEMOEMBED(); demoObj.run('RadialEngine', '', '535', '395');</script><div id='DEMO_RadialEngine'><a class='demonstrationHyperlink' href='http://demonstrations.wolfram.com/RadialEngine/' target='_blank'>Radial Engine</a> from the <a class='demonstrationHyperlink' href='http://demonstrations.wolfram.com/' target='_blank'>Wolfram Demonstrations Project</a> by Yu-Sung Chang</div><br />
+		<div id="banner">Home<img src="Me.jpg" id="logo" title="Anirudh Ajith (Me)"/></div>
+		<div id="menu-bar">
+			<ul>
+				<li><div class="menu_item" id="bkmks" onclick="bkmks()">Bookmarks</div></li>
+				<li><div class="menu_item" id="songs" onclick="Songs()">Songs</div></li>
+				<li><div class="menu_item" id="mail" onclick="getUnreadCount()">Mail</div></li>
+				<li><div class="menu_item">YouTube</div></li>
+			</ul>
+		</div>
+		<div id="content">
+			<ul id="sortableLinksList">		
+				<li><div><a href="http://google.com/"><img src="Google.png" alt="Google" id="Google" class="link" title="Click to go to Google"/></a></div></li>
+				<li><div><a href="http://mail.google.com/"><div id="unreadCounter">0</div><img src="Gmail.png" alt="Gmail" id="Gmail" class="link" title="Click to go to Gmail"/></a></div></li>
+				<li><div><a href="http://youtube.com/"><img src="YouTube.png" alt="YouTube" id="YouTube" class="link" title="Click to go to YouTube"/></a></div></li>
+				<li><div><a href="http://youtube-trends.blogspot.com/‎"><img src="YouTube-Trends.png" alt="YouTube Trends" id="YouTube-Trends" class="link" title="Click to go to YouTube Trends"/></a></div></li>
+				<li><div><a href="https://www.googlesciencefair.com/en/"><img src="GSF.png" alt="Google Science Fair" id="gsf" class="link" title="Click to go to Google Science Fair"/></a></div></li>
+				<li><div><a href="http://www.wolframalpha.com/"><img src="Wolfram|Alpha.png" alt="Wolfram Alpha" id="W|A" class="link" title="Click to go to Wolfram Alpha"/></a></div></li>
+				<li><div><a href="http://www.w3schools.com/"><img src="W3.png" alt="w3 Schools" id="W3" class="link" title="Click to go to W3Schools"/></a></div></li>
+				<li><div><a href="http://www.codecademy.com/"><img src="Codecademy.png" alt="Codecademy" id="Codecademy" class="link" title="Click to go to Codecademy"/></a></div></li>
+				<li><div><a href="http://www.artofproblemsolving.com/"><img src="AoPS.png" alt="Art of Problem Solving" id="AoPS" class="link" title="Click to go to AoPS"/></a></div></li>
+				<li><div><a href="http://www.jquery.com/"><img src="jQuery.png" alt="jQuery" id="jQuery" class="link" title="Click to go to the jQuery site"/></a></div></li>
+				<li><div onclick="addBookmark()"><img src="Add.png" alt="Add" id="Add" class="link" title="Click to go to Add bookmark"/></div></li>
+			</ul>
+		</div>
+	</body>
+</html>

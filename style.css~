@@ -1,0 +1,144 @@
+#banner {
+	color: #A0A0A0;
+	font-family: 'DejaVu Sans Light';
+	font-weight: 100;
+	font-size: 4em;
+	text-align: center;
+    margin-right: 0;
+	width: auto;
+	background: linear-gradient(#FFFFFF, #FFFFFF,#F0F0F0);
+	padding: 15px;
+    border: #A0A0A0 solid 1px;
+	border-radius: 8px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+#menu-bar {
+    background: linear-gradient(#FFFFFF, #F0F0F0);
+    padding: 1px;
+    border: 1px #A0A0A0 solid;
+    border-top: 0;
+}
+
+#logo {
+	float: right;
+	height: 73px;
+	margin-right: 15px;
+	border-radius: 20px;
+    border: 1px solid #A0A0A0;
+}
+
+.menu_item {
+    display: inline;
+    padding: 9%;
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
+    margin-left: auto;
+    /*border: 1px black solid;*/
+    /*transition:background 2s;*/
+    border-radius: 7px;
+    font-family: 'Open Sans',"DejaVu Sans Light";
+    color: #A0A0A0;
+    font-size:1.25em;
+    font-weight: bold;
+}
+
+.menu_item:hover {
+    background: linear-gradient(#EDEDED, #DDDDDD);
+    color: #B0B0B0;
+}
+
+.menu_item:active {
+    background: linear-gradient(#707070,#909090);
+    color: #F2F2F2;
+}
+
+ul>li {
+    display:inline;
+}
+
+#content {
+    height: 100%;
+    background: linear-gradient(white,#F0F0F0,#E0E0E0);
+    border: 1px #A0A0A0 solid;
+    border-top: 0;
+    padding-bottom: 20px;
+}
+
+#sortableLinksList {
+		list-style-type: none;
+		margin: 0; 
+		padding: 0; 
+		width: 450px;
+}
+
+#sortable li { 
+		margin: 3px 3px 3px 0; 
+		padding: 1px; 
+		float: left; 
+		width: 100px; 
+		height: 90px; 
+		font-size: 4em; 
+		text-align: center; }
+
+/*#Gmail {
+    height: 200px;
+}
+
+#YouTube-Trends {
+    background: radial-gradient(#f89248,#ec994b,#bf7f0c);
+}
+
+.link {
+    border: 2px solid #A0A0A0;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 30px;
+    background-color: white;
+    box-shadow: 0 0 16px #A0A0A0;
+    height: 200px;
+    transition: padding-top 0.5s, padding-bottom 0.5s, margin-top 0.5s, margin-bottom 0.5s;
+}
+
+#unreadCounter {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-family: ubuntu;
+    text-align: center;
+    width: 1.2em;
+    font-size: 2.35em;
+    border-radius: 100%;
+    position: relative;
+    margin-right: -50px;
+    margin-top: 15px;
+    opacity: 0.6;
+}
+
+.link:hover {
+    padding-top: 0;
+    margin-top: 30px;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+
+#mailtext {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    text-align: center;  
+    font-family: ubuntu;
+    font-size: 3em;
+}*/
+
+/*a {
+    text-decoration: none;
+    color: black;
+}*/
+
+/*#RC {
+    width: 200px;    
+}*/
